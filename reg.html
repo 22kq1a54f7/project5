@@ -1,0 +1,133 @@
+<html>
+    <head>
+        <title> Registration form</title>
+    </head>
+    <style>
+         @media screen and (min-width:320px )  {
+
+body {
+     background-color: aqua;
+}
+}
+/*  Tablet,ipad      */    
+
+@media Screen and (min-width:768px) and (max-width:1024px){
+body {
+     background-color: rgb(177, 48, 48);
+}
+}
+
+/* Desktops and Laptops asfsdf     */    
+
+@media Screen and (min-width:1224px) {
+body {
+     background-color: rgb(48, 151, 8);
+}
+}
+
+/* Large Screens---------  */
+@media Screen and (min-width:1824px) {
+body {
+     background-color: rgb(101, 51, 208);
+}
+}
+        body{
+            font-family: Arial, sans-serif;
+            background-repeat: no-repeat;
+            border-radius: auto;
+            background-size:cover;
+            margin: 0;
+            padding: 0;
+        }
+        #registrationForm {
+            max-width:300px;
+            margin:auto;
+            padding: 10px;
+            background-color:none;
+            border-radius:5px;
+            box-shadow: 10 0 10px rgba(228, 66, 66, 0.1);
+
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        input[type="tel"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 5px;
+            border: 1px solid #000000;
+            border-radius: auto;
+            box-sizing: border-box;
+            display: inline-block;
+        }
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color:aqua;
+            color:#000000;
+            border:#000000;
+            border-radius: auto;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        h1{
+            color: black;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        label {
+            display:block;
+            margin-bottom: 10px;
+            color: #000000;
+        }
+        input[type="submit"]:hover{
+            background-color:#ffffff;
+        }
+
+        img {
+            display: inline-block;
+            margin: 0 auto;
+           position: relative;
+            top: 10px;
+
+        }
+    </style>
+    <body>
+    <right>
+        <form id="registrationForm" action="login.html">
+       <body background="C:\Users\PC\Desktop\project4\istockphoto-1023551840-612x612.jpg">
+        <div class="abc9"></div>
+        <h1>Registration form</h1>
+       <label for="username">user name: </label>
+        <input type="text" name="uname" placeholder="username" required><br>
+        <label for="password">password:</label>
+         <input type="password" name="pass" placeholder="password" required><br>
+         <label for="firstname">first name: </label>
+        <input type="text" name="name" placeholder="firstname" required><br>
+         <label for="lastname">last name:</label>
+         <input type="text" name="name" placeholder="lastname" required><br>
+         <label for="date of birth">Date of birth:</label>
+        <input type ="date" name ="bname" required><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+        <label for="mobile number">mobile number:</label>
+        <input type="tel" name ="personal" id="per1" pattern="[0-9]{10}" title="the ten digits number" required><br>
+        <label for="Email">Email:</label>
+        <input type="email" name="office" id="myofficeid" placeholder="@gmail.com" autofocus required><br>
+        <label for="adress">Aaddress</label>
+         <textarea name="my test" col="8" rows="4">
+            textarea....
+        </textarea><br><br>
+
+        <input type= "submit" value="submit">
+       
+        </form>
+    </right>
+    </body>
+</html>

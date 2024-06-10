@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<style>
+    body{
+        background-size: cover;
+    }
+    .fade-in {
+            opacity: 0;
+            animation: fadeIn 4s forwards;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+    /* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Flexbox container */
+.container-wrapper {
+    display: flex;
+    justify-content: space-around; /* Space between containers */
+    align-items: flex-start; /* Align containers to the start */
+    flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+    padding: 20px;
+    gap: 20px; /* Space between containers */
+}
+
+/* Individual container styling */
+.container {
+    flex: 1;
+    min-width: 100px; /* Minimum width to maintain responsiveness */
+    padding: 40px;
+    background-color:none;
+    border: 1px solid #ddd;
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: slideIn 2s;
+}
+@keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 2;
+            }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(100%);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }input[type="submit"] {
+            width: 100%;
+            padding: 20px;
+            background-color:aqua;
+            color:#000000;
+            border:#000000;
+            border-radius: auto;
+            cursor:pointer;
+            transition: background-color 0.3s;
+        }
+        input[type="submit"]:hover{
+            background-color:#ffffff;
+        }
+
+/* Additional Styling */
+h1 {
+    color:darkmagenta;
+}
+
+p {
+    color:rgb(56, 142, 142);
+    font-size: 16px;
+    line-height: 1.5;
+}
+.navbar .logo img {
+    height: 60px; /* Adjust as necessary */
+}
+ 
+</style>
+<body>
+    <body background=pexels-photo-9681179.webp>
+        </form>
+        <center>
+        <div class="fade-in" style="background-color:black; padding: 60px; width: 20px; text-align: center;">
+           <font size="9" color= cyan>TRAINING AND DEVELOPMENT</font><br><br>
+        </div>
+    </center>
+    </div>
+    <div class="container-wrapper">
+        <div class="container">
+            <h1>Formal Training</h1>
+            <p>Description: Structured & organized training programs with  objectives.<br>
+                Examples: Certification courses, degree programs, professional development programs.</p>
+                <form action="C:\Users\PC\Desktop\project5\formal session.html">
+                <button input type="submit">START</button></form>
+        </div>
+        <div class="container">
+            <h1>Informal Training</h1>
+            <p>Description: Unstructured, unplanned training that occurs naturally on the job.<br>
+                Examples: Peer-to-peer learning, mentorship, ad-hoc problem solving.</p>
+                <form action="C:\Users\PC\Desktop\project5\informal session.html">
+                <button input type="submit">START</button></form>
+        </div>
+        <div class="container">
+            <h1>Technical Training</h1>
+            <p>Description: Training focused on specific skills required for a job.<br>
+                Examples: IT skills training, machinery operation, software training.</p>
+                <form action="C:\Users\PC\Desktop\project5\Technical session.html">
+                <button input type="submit">START</button></form>
+        </div>
+        <div class="container">
+            <h1>Soft Skills Training</h1>
+            <p>improving personal attributes<br>
+                Examples: Communication skills, leadership training, teamwork, time management.</p>
+                <form action="C:\Users\PC\Desktop\project5\softskills session.html">
+                <button input type="submit">START</button></form>
+        </div>
+    </div><br><br>
+    <div class="container-wrapper">
+        <div class="container">
+            <h1>Safety Training
+            </h1>
+            <p>Description: Training focused on ensuring workplace safety and health.<br>
+                Examples: Fire drills, emergency response training, occupational health and safety training..</p>
+                <form action="C:\Users\PC\Desktop\project5\safety session.html">
+                <button input type="submit">START</button></form>
+        </div>
+        <div class="container">
+            <h1>Managerial Training</h1>
+            <p>Description: Training for individuals in managerial or supervisory roles.<br>
+                Examples: Leadership development, strategic planning</p>
+                <form action="C:\Users\PC\Desktop\project5\managerial session.html">
+                <button input type="submit">START</button></form>
+        </div>
+        <div class="container">
+            <h1>Team Training
+            </h1>
+            <p>Description: Training designed to improve team performance and collaboration.
+                Examples:collaborative problem-solving exercises, project management.</p>
+                <form action="C:\Users\PC\Desktop\project5\team session.html">
+                <button input type="submit">START</button></form>
+        </div>
+        <div class="container">
+            <h1>E-Learning/Online Training</h1>
+            <p>Description: Training delivered via digital platforms.
+                Examples: Online courses, webinars, virtual classrooms.</p>
+                <form action="C:\Users\PC\Desktop\project5\E-Learning session.html">
+                <button input type="submit">START</button></form>
+        </div>
+    </div>
+    <div class="container-wrapper">
+        <div class="container">
+            <h1>Product Training
+            </h1>
+            <p>Description: Educates employees about the company’s products or services.<br>
+                Examples: Sales training, product demonstration training, and customer support training</p>
+                <form action="C:\Users\PC\Desktop\project5\product session.html">
+                <button input type="submit">START</button></form>
+        </div>
+        <div class="container">
+            <h1>Oreiantation Training</h1>
+            <p>Description: Introduces new employees to the company culture.<br>
+                Examples: Company overview sessions, tours, and introductory meetings</p>
+                <form action="C:\Users\PC\Desktop\project5\Orientation session.html">
+                <button input type="submit">START</button></form>
+        </div>
+        <div class="container">
+            <h1>Cross Training
+            </h1>
+            <p>Description: Prepares employees to perform tasks outside their usual role, increasing flexibility.
+                Examples: Training a cashier to also handle customer service, or an engineer to also manage a project.</p>
+                <form action="C:\Users\PC\Desktop\project5\Cross session.html">
+                <button input type="submit">START</button></form>
+        </div>
+        <div class="container">
+            <h1>Executive Training</h1>
+            <p>Description: Tailored for high-level executives to enhance strategic .<br>
+            Examples: Executive coaching, advanced leadership programs, and corporate governance training..</p>
+            <form action="C:\Users\PC\Desktop\project5\Executive session.html">
+                <button input type="submit">START</button></form>
+        </div>
+    </div>
+</body>
+<body>
+    <script>
+        let currentSection = 1;
+    
+        function nextSection() {
+            const totalSections = 3;
+            if (currentSection < totalSections) {
+                currentSection++;
+                const section = document.getElementById(`section${currentSection}`);
+                section.style.opacity = 1;
+                section.style.animation = 'fadeIn 1s forwards';
+            } else {
+                alert('You have completed the training!');
+            }
+        }
+    </script>
+</body>
+</html>
